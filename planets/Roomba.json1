@@ -1,0 +1,40 @@
+{
+	"name" : "Roomba",
+	"Base" : 
+    {
+        "surfaceSize" : 250,
+        "surfaceGravity" : 40,
+		"gravityFallOff" : "Linear",
+	},
+	"Orbit" : 
+	{
+		"semiMajorAxis" : 1300,
+		"inclination" : 30,
+		"primaryBody" : "BRITTLE_HOLLOW",
+		"isMoon" : true,
+		"isTidallyLocked" : false,
+		"longitudeOfAscendingNode" : 50,
+		"eccentricity" : 0.2,
+		"argumentOfPeriapsis": 50,
+	},
+	"singularity" : 
+	{
+		"size" : 25,
+		"type" : "BlackHole",
+	},
+	"Signal" : 
+    {
+        "Signals" : 
+        [
+            {
+				"Frequency" : "WarpCore",
+				"Name" : "Roomba",
+				"audioFilePath" : "planets/Assets/radiation.wav",
+				"SourceRadius" : 25,
+				"detectionRadius" : 3000,
+				"identificationRadius" : 1000,
+				"onlyAudibleToScope" : true
+			}
+        ]
+    },
+}

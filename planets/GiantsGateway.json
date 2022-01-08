@@ -1,0 +1,42 @@
+{
+	"name" : "Hornfels Object",
+	"Base" : 
+    {
+        "surfaceSize" : 50,
+        "surfaceGravity" : 36,
+		"gravityFallOff" : "Linear",
+		"hasMapMarker" : true
+	},
+	"Orbit" : 
+	{
+		"semiMajorAxis" : 1800,
+		"inclination" : 3,
+		"primaryBody" : "GIANTS_DEEP",
+		"isMoon" : true,
+		"isTidallyLocked" : false,
+		"longitudeOfAscendingNode" : 50,
+		"eccentricity" : 0.1,
+		"argumentOfPeriapsis": 50
+	},
+	"singularity" : 
+	{
+		"size" : 50,
+		"TargetStarSystem" : "tandicase.Gargantua",
+		"type" : "BlackHole"
+	},
+	"Signal" : 
+    {
+        "Signals" : 
+        [
+            {
+				"Frequency" : "WarpCore",
+				"Name" : "Hornfels Object",
+				"audioFilePath" : "planets/Assets/Hargantua.wav",
+				"SourceRadius" : 50,
+				"detectionRadius" : 3500,
+				"identificationRadius" : 500,
+				"onlyAudibleToScope" : true
+			}
+        ]
+    }
+}

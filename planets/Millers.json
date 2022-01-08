@@ -1,0 +1,41 @@
+{
+	"name" : "Millers Planet",
+	"starSystem" : "tandicase.Gargantua",
+	"Base" :
+	{
+		"surfaceGravity" : 12,
+		"surfaceSize" : 400,
+		"groundSize" : 400,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true,
+		"waterSize" : 412
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 14000,
+		"inclination" : 15,
+		"primaryBody" : "Gargantua",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 30,
+		"eccentricity" : 0.2,
+		"argumentOfPeriapsis" : 25,
+		"trueAnomaly" : 245,
+		"axialTilt" : 30,
+		"siderealPeriod" : 58
+	},
+	"Atmosphere" :
+	{
+		"hasOxygen" : true,
+		"hasAtmosphere" : true,
+		"size" : 700,
+		"fogTint" : 
+		{
+			"r" : 90,
+			"g" : 128,
+			"b" : 128,
+			"a" : 255
+		},
+		"fogDensity" : 0.4,
+		"fogSize" : 750
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"name" : "Grungegule",
+	"starSystem" : "tandicase.Gargantua",
+	"Base" : 
+    {
+        "surfaceSize" : 180,
+        "surfaceGravity" : 36,
+		"gravityFallOff" : "Linear",
+		"hasMapMarker" : true
+	},
+	"Orbit" : 
+	{
+		"semiMajorAxis" : 18000,
+		"inclination" : 3,
+		"primaryBody" : "Gargantua",
+		"isMoon" : false,
+		"isTidallyLocked" : false,
+		"longitudeOfAscendingNode" : 26,
+		"eccentricity" : 0.1,
+		"argumentOfPeriapsis" : 89,
+		"trueAnomaly" : 310,
+		"axialTilt" : 1,
+		"siderealPeriod" : 58
+	},
+	"singularity" : 
+	{
+		"size" : 180,
+		"pairedSingularity" : "Grungethule",
+		"type" : "BlackHole"
+	},
+	"Signal" : 
+    {
+        "Signals" : 
+        [
+            {
+				"Frequency" : "WarpCore",
+				"Name" : "Grungegule",
+				"audioFilePath" : "planets/Assets/radiation.wav",
+				"SourceRadius" : 50,
+				"detectionRadius" : 3500,
+				"identificationRadius" : 500,
+				"onlyAudibleToScope" : true
+			}
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+	"name" : "Bia",
+	"Base" : 
+    {
+        "surfaceSize" : 501,
+        "surfaceGravity" : 158,
+		"gravityFallOff" : "linear"
+	},
+	"Orbit" : 
+	{
+		"semiMajorAxis" : 13000,
+		"inclination" : 5,
+		"primaryBody" : "Sun",
+		"isMoon" : false,
+		"isTidallyLocked" : false,
+		"longitudeOfAscendingNode" : 50,
+		"eccentricity" : 0.1,
+		"argumentOfPeriapsis": 50
+	},
+	"singularity" : 
+	{
+		"size" : 100,
+		"type" : "BlackHole"
+	}
+}

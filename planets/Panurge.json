@@ -1,0 +1,49 @@
+{
+	"name" : "Panurge",
+	"starSystem" : "tandicase.Gargantua",
+	"Base" : 
+    {
+        "surfaceSize" : 200,
+        "surfaceGravity" : 160,
+		"gravityFallOff" : "inverseSquared"
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 125000,
+		"inclination" : 18,
+		"primaryBody" : "Gargantua",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 36,
+		"eccentricity" : 0.2,
+		"argumentOfPeriapsis" : 168,
+		"trueAnomaly" : 68,
+		"axialTilt" : 5,
+		"siderealPeriod" : 58
+	},
+	"Star" : 
+	{
+		"size": 200,
+		"tint" :
+		{
+			"r" : 149,
+			"g" : 245,
+			"b" : 255,
+			"a" : 255
+		}
+	},
+	"Signal" : 
+    {
+        "Signals" : 
+        [
+            {
+				"Frequency" : "WarpCore",
+				"Name" : "Panurge",
+				"audioFilePath" : "planets/Assets/Panurge.wav",
+				"SourceRadius" : 4000,
+				"detectionRadius" : 30000,
+				"identificationRadius" : 18000,
+				"onlyAudibleToScope" : true
+			}
+        ]
+    }
+}

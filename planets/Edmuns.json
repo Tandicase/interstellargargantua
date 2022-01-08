@@ -1,0 +1,47 @@
+{
+	"name" : "Edmuns Planet",
+	"starSystem" : "tandicase.Gargantua",
+	"Base" :
+	{
+		"surfaceGravity" : 13,
+		"surfaceSize" : 555,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true,
+		"waterSize" : 545
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 12000,
+		"inclination" : -4,
+		"primaryBody" : "Pantagruel",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 67,
+		"eccentricity" : 0.05,
+		"argumentOfPeriapsis" : 122,
+		"trueAnomaly" : 311,
+		"axialTilt" : 15,
+		"siderealPeriod" : 58
+	},
+	"Atmosphere" :
+	{
+		"hasOxygen" : true,
+		"hasAtmosphere" : true,
+		"size" : 600,
+		"fogTint" : 
+		{
+			"r" : 149,
+			"g" : 245,
+			"b" : 255,
+			"a" : 255
+		},
+		"fogDensity" : 0.4,
+		"fogSize" : 650
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/Assets/Mannsheight2.png",	
+		"textureMap" : "planets/Assets/edmuns.png",	
+		"minHeight" : 560,
+		"maxHeight" : 540
+	}
+}

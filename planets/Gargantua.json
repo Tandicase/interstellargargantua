@@ -1,0 +1,62 @@
+{
+	"name" : "Gargantua",
+	"starSystem" : "tandicase.Gargantua",
+	"Base" : 
+    {
+        "surfaceSize" : 4000,
+        "surfaceGravity" : 80,
+		"gravityFallOff" : "inverseSquared",
+		"centerOfSolarSystem" : true
+	},
+	"Orbit" :
+	{
+		"isStatic" : true
+	},
+	"Star" : 
+	{
+		"size": 1500,
+		"tint" :
+		{
+			"r" : 255,
+			"g" : 170,
+			"b" : 0,
+			"a" : 255
+		},
+		"solarFlareTint" :
+		{
+			"r" : 0,
+			"g" : 0,
+			"b" : 0,
+			"a" : 0
+		}
+	},
+	"singularity" : 
+	{
+		"size" : 4000,
+		"targetStarSystem" : "SolarSystem",
+		"type" : "BlackHole"
+	},
+	"Ring" : 
+	{
+		"innerRadius" : 50,
+		"outerRadius" : 14000,
+		"inclination" : 40,
+		"rotationSpeed" : 2,
+		"texture" : "planets/Assets/infallunproj.png"
+	},
+	"Signal" : 
+    {
+        "Signals" : 
+        [
+            {
+				"Frequency" : "WarpCore",
+				"Name" : "Gargantua",
+				"audioFilePath" : "planets/Assets/Hargantua.wav",
+				"SourceRadius" : 4000,
+				"detectionRadius" : 30000,
+				"identificationRadius" : 18000,
+				"onlyAudibleToScope" : true
+			}
+        ]
+    }
+}
