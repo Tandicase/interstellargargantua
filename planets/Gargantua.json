@@ -39,7 +39,7 @@
 	"Ring" : 
 	{
 		"innerRadius" : 50,
-		"outerRadius" : 14000,
+		"outerRadius" : 11000,
 		"inclination" : 40,
 		"rotationSpeed" : 2,
 		"texture" : "planets/Assets/infallunproj.png"
