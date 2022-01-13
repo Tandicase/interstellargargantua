@@ -22,6 +22,12 @@
 			"b" : 0,
 			"a" : 255
 		},
+		"curve" : 
+		[
+			{"time":0, "value":1},
+			{"time":16.375, "value":0.7},
+			{"time":22, "value":0}
+		],
 		"solarFlareTint" :
 		{
 			"r" : 0,
@@ -42,7 +48,13 @@
 		"outerRadius" : 11000,
 		"inclination" : 40,
 		"rotationSpeed" : 2,
-		"texture" : "planets/Assets/infallunproj.png"
+		"texture" : "planets/Assets/infallunproj.png",
+		"curve" : 
+		[
+			{"time":0, "value":1},
+			{"time":12.625, "value":0.7},
+			{"time":18.25, "value":0.0}
+		]
 	},
 	"Signal" : 
     {

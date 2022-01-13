@@ -1,0 +1,27 @@
+{
+	"name" : "Gargantua",
+	"starSystem" : "tandicase.Gargantua",
+	"Star" : 
+	{
+		...
+		"curve" : 
+		[
+			{"time":0, "value":1},
+			{"time":0.45, "value":0.7},
+			{"time":0.6, "value":0}
+		],
+	},
+	"singularity" : 
+	{
+		"size" : 4000,
+		"targetStarSystem" : "SolarSystem",
+		"type" : "BlackHole"
+	},
+	"Ring" : 
+		"curve" : 
+		[
+			{"time":0, "value":1},
+			{"time":0.15, "value":0.7},
+			{"time":0.3, "value":0.0}
+		]
+	}

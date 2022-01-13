@@ -7,8 +7,7 @@
 		"surfaceSize" : 400,
 		"groundSize" : 400,
 		"hasMapMarker" : true,
-		"hasAmbientLight" : true,
-		"waterSize" : 412
+		"hasAmbientLight" : true
 	},
 	"Orbit" :
 	{
@@ -37,5 +36,22 @@
 		},
 		"fogDensity" : 0.4,
 		"fogSize" : 750
+	},
+	"Water" :
+	{
+		"size" : 430,
+		"curve" : 
+		[
+			{"time":0, "value":1},
+			{"time":11, "value":0.97},
+			{"time":22, "value":0.93}
+		]
+	},
+	"HeightMap" : 
+	{
+		"heightMap" : "planets/Assets/Mannsheight2.png",	
+		"textureMap" : "planets/Assets/Manns.png",	
+		"minHeight" : 390,
+		"maxHeight" : 410
 	}
 }

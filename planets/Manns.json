@@ -4,15 +4,15 @@
 	"Spawn" : 
 	{
 		"playerSpawnPoint" : 
-		{"x": -12000, "y": 7000, "z": 5000},
+		{"x": -1200, "y": 700, "z": 500},
 		"shipSpawnPoint" :
-		{"x": -12000, "y": 7000, "z": 5000},
+		{"x": -1200, "y": 700, "z": 500},
 		"startwithsuit" : true
 	},
 	"Base" :
 	{
 		"surfaceGravity" : 7,
-		"surfaceSize" : 360,
+		"surfaceSize" : 600,
 		"hasMapMarker" : true,
 		"hasAmbientLight" : true
 	},
@@ -33,7 +33,7 @@
 	{
 		"hasOxygen" : false,
 		"hasAtmosphere" : true,
-		"hasSnow" : true,
+		"hasRain" : true,
 		"size" : 600,
 		"cloud" : "planets/Assets/Manns.png",
 		"cloudTint" : 
@@ -53,11 +53,21 @@
 		"fogDensity" : 0.2,
 		"fogSize" : 650
 	},
+	"Water" :
+	{
+		"size" : 410,
+		"curve" : 
+		[
+			{"time":0, "value":0.85},
+			{"time":11, "value":0.88},
+			{"time":22, "value":1}
+		]
+	},
 	"HeightMap" :
 	{
 		"heightMap" : "planets/Assets/Mannsheight2.png",	
 		"textureMap" : "planets/Assets/Manns.png",	
-		"minHeight" : 380,
+		"minHeight" : 360,
 		"maxHeight" : 420
 	}
 }
